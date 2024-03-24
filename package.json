@@ -1,0 +1,30 @@
+{
+  "name": "feurbot_v4",
+  "version": "1.0.1",
+  "description": "FeurBot by azukiov",
+  "main": "main.js",
+  "scripts": {
+    "update": "git add . && git commit -m \"just a new commit\" && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azukiov/FeurBot_V4.git"
+  },
+  "keywords": [
+    "feur",
+    "bot"
+  ],
+  "author": "https://github.com/Azukiov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Azukiov/FeurBot_V4/issues"
+  },
+  "homepage": "https://github.com/Azukiov/FeurBot_V4#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "path": "^0.12.7",
+    "winston": "^3.12.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  }
+}
