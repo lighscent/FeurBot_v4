@@ -8,7 +8,8 @@ module.exports = {
         if (message.author.bot) return;
         if (!message.guild) return;
 
-        if (message.content.endsWith('quoi')) {
+        // vérifie si la phrase finie par quoi
+        if (message.content.endsWith('quoi' || 'qwa' )) {
             message.reply('feur');
         }
     }
